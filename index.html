@@ -4,4 +4,12 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 author_profile: true
+carousels:
+  - images: 
+    - image: /assets/images/unsplash-gallery-image-1-th.jpg
+    - image: /assets/images/unsplash-gallery-image-2-th.jpg
+    - image: /assets/images/unsplash-gallery-image-3-th.jpg
+    - image: /assets/images/unsplash-gallery-image-4-th.jpg
 ---
+
+{% include carousel.html height="50" unit="%" duration="7" number="1" %}
